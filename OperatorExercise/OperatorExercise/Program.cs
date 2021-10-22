@@ -7,8 +7,7 @@ namespace OperatorExercise
     {
         public static double AreaOfCircle(double r)
         {
-            double pi = 3.14;
-            double area = pi * (r * r);
+            double area = Math.PI * Math.Pow(r, 2);
             return area;
         }
         public static string basicMath(int a, int b)
